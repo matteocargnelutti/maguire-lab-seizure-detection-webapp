@@ -25,12 +25,12 @@ This web app allows to run a set of rodent single-channel EEG data against a dee
 
 Built with the [Maguire Lab at Tufts University](https://www.maguirelab.com/) by:
 
-Matteo Cargnelutti | Pantelis Antonoudiou, Phd
+Matteo Cargnelutti | Pantelis Antonoudiou, PhD
 ------------------ | --------------------------
 ![Matteo Cargnelutti - Avatar](https://avatars3.githubusercontent.com/u/625889?s=460&u=a116df5de22bd9dcb9d33d88318771db4510ca22&v=4) | ![Pantelis Antonoudiou - Avatar](https://avatars3.githubusercontent.com/u/29359722?s=460&u=830a8a3512fb5971af07ab8cc043a7283c93f1c2&v=4)
 Software Development | Data Science
 Boston, USA / France 🇫🇷 | Boston, USA / Cyprus 🇨🇾
-[@macargnelutti](https://twitter.com/macargnelutti)| [@PAntonoudiou](https://twitter.com/PAntonoudiou)
+[@matteocargnelutti](https://github.com/matteocargnelutti)| [@pantelisantonoudiou](https://github.com/pantelisantonoudiou)
 
 
 This open-source software is distributed under [the Apache 2.0 License](/LICENSE).
