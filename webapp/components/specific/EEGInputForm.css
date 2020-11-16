@@ -1,0 +1,52 @@
+eeg-input-form {
+  display: block;
+}
+
+eeg-input-form form {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  padding-top: 2rem;
+  filter: drop-shadow(0.35rem 0.25rem 0.5rem rgba(53, 53, 53, 0.25));
+}
+
+eeg-input-form form .file-label {
+  cursor: pointer;
+  border: 1px solid rgb(205, 205, 205);
+  border-right: 0px;
+  padding: 1rem;
+  display: inline-block;
+  text-align: left;
+  flex: 4;
+  background-color: white;
+  transition: background-color 0.3s ease-in-out;
+  border-top-left-radius: 0.75rem;
+  border-bottom-left-radius: 0.75rem; 
+  overflow: hidden;
+}
+
+eeg-input-form form .file-label:hover {
+  background-color: rgb(250, 250, 250);
+}
+
+eeg-input-form form button {
+  border-top-right-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
+  border: 1px solid rgb(165, 0, 0);
+  border-left: 0px;
+}
+
+eeg-input-form form input[type="file"]:focus + label {
+  outline: 1px solid red;
+}
+
+eeg-input-form form input[type=file] {
+  width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+  z-index: -1;
+  /* Make the input invisible to the user, but not the browser */
+}

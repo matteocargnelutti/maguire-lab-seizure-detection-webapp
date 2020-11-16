@@ -1,0 +1,6 @@
+.DS_Store
+.csv
+/samples
+.vscode/
+Pipfile.lock
+*.pyc

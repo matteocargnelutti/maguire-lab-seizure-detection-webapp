@@ -1,0 +1,75 @@
+screen-input {
+  display: block;
+  width: 40rem;
+  margin: auto;
+  animation: appear-on-load 0.3s ease-in-out;
+  animation-iteration-count: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  screen-input {
+    animation: none;
+  }
+}
+
+@media (max-width: 769px) {
+  screen-input {
+    width: 100%;
+    min-height: 85vh;
+    padding: 1.5rem;
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+  }
+}
+
+
+/* Title */
+screen-input h1 {
+  padding-top: 3rem;
+}
+
+@media (max-width: 469px) {
+  screen-input h1 {
+    padding-top: 2rem;
+  }
+}
+
+screen-input h1 a {
+  font-size: 1.25rem;
+  text-decoration: none;
+  position: relative;
+  top: 0.35rem;
+  color: var(--alt-color-);
+}
+
+screen-input h1 p {
+  text-align: left;
+  font-size: 3.5rem;
+  line-height: 3.5rem;
+}
+
+@media (max-width: 769px) {
+  screen-input h1 p {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+}
+
+@media (max-width: 469px) {
+  screen-input h1 p {
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+  }
+}
+
+screen-input h1 p span {
+  color: var(--alt-color);
+}
+
+screen-input h1::after {
+  content: '';
+  display: block;
+  border-bottom: 0.3rem solid var(--alt-color);
+  width: 12rem;
+  padding-top: 0.75rem;
+}

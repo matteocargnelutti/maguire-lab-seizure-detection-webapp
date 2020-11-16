@@ -1,0 +1,48 @@
+screen-loading {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  animation: appear-on-load 0.3s ease-in-out;
+  animation-iteration-count: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  screen-loading {
+    animation: none;
+  }
+}
+
+screen-loading div {
+  margin: auto;
+  text-align: center;
+}
+
+screen-loading div h2 {
+  margin-bottom: 1rem;
+}
+
+@keyframes server-image-animation {
+  0%   { top: 0px; }
+  50%  { top: 0.2rem; }
+  100% {top: 0px;}
+}
+
+screen-loading div img {
+  width: 7rem;
+  display: block;
+  margin: auto;
+  padding: 0.5rem;
+  position: relative;
+  top: 0px;
+  animation: server-image-animation 1s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  screen-loading div img {
+    animation: none;
+  }
+}
+
+screen-loading div p {
+  padding: 1rem;
+}

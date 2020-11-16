@@ -1,0 +1,49 @@
+how-it-works {
+  display: block;
+  padding-top: 2.5rem;
+}
+
+/* Title */
+how-it-works h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+how-it-works h2::after {
+  content: '';
+  display: block;
+  border-bottom: 0.3rem solid rgb(210, 0, 0);
+  width: 8rem;
+  margin: auto;
+  padding-top: 1rem;
+}
+
+/* List */
+how-it-works ol {
+  list-style: none;
+  padding-top: 2rem;
+}
+
+how-it-works ol li {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+
+how-it-works ol li img {
+  height: 3.5rem;
+  display: block;
+  padding: 1rem;
+  padding-top: 0.35rem;
+  object-fit: contain;
+}
+
+@media (max-width: 769px) {
+  how-it-works ol {
+    text-align: center;
+  }
+  
+  how-it-works ol li img {
+    display: none;
+  }
+}

@@ -1,0 +1,28 @@
+info-footer {
+  display: block;
+  padding-top: 2rem;
+}
+
+info-footer hr {
+  border-bottom: 0.3rem solid var(--alt-color);
+  width: 8rem;
+  margin: auto;
+  margin-bottom: 1.25rem;
+}
+
+info-footer h3 {
+  font-size: 2rem;
+  margin-bottom: 1.35rem;
+  text-align: center;
+}
+
+info-footer p {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+@media (max-width: 769px) {
+  info-footer p {
+    text-align: center;
+  }
+}

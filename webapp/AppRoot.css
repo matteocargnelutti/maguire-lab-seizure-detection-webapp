@@ -1,0 +1,116 @@
+/*------------------------------------------------------------------------------
+ * App-wide CSS variables
+------------------------------------------------------------------------------*/
+:root {
+  --main-color: #FFFFFF;
+  --main-color-: rgb(241, 241, 241);
+  --main-color--: rgb(175, 170, 170);
+
+  --copy-color: rgb(20, 20, 20);
+
+  --copy-color-alt: #4e4646;
+  --copy-color-alt-: rgb(48, 48, 48);
+
+  --alt-color: rgb(210, 0, 0);
+  --alt-color-: rgb(165, 0, 0);
+}
+
+/*------------------------------------------------------------------------------
+ * General
+------------------------------------------------------------------------------*/
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  box-sizing: border-box; 
+  font-family: 'Roboto Slab', serif;
+}
+
+html {
+  font-size: 20px;
+  color: var(--copy-color);
+}
+
+@media (max-width: 769px) {
+  html { font-size: 16px; }
+}
+
+@media (min-width: 1601px) {
+  html { font-size: 22px; }
+}
+
+@media (min-width: 1921px) {
+  html { font-size: 24px; }
+}
+
+@media (min-width: 2561px) {
+  html { font-size: 30px; }
+}
+
+@media (min-width: 3841px) {
+  html { font-size: 36px; }
+}
+
+body {
+  background-color: white;
+}
+
+a {
+  color: var(--alt-color);
+  transition: color 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--alt-color-);
+}
+
+button {
+  display: inline-block;
+  padding: 1rem;
+  background-color: var(--alt-color);
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  flex: 1;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: var(--alt-color-);
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+/*------------------------------------------------------------------------------
+ * Utility
+------------------------------------------------------------------------------*/
+.hidden {
+  display: none;
+}
+
+@keyframes appear-on-load {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/*------------------------------------------------------------------------------
+ * App-root
+------------------------------------------------------------------------------*/
+app-root {
+  display: block;
+  width: 100%;
+  border-top: 0.3rem solid var(--alt-color);
+  border-bottom: 0.3rem solid var(--alt-color);
+}
+
+/*------------------------------------------------------------------------------
+ * Screens system
+------------------------------------------------------------------------------*/
+app-root > main {
+  min-height: 100vh;
+}
+
