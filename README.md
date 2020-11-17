@@ -1,7 +1,7 @@
 # Maguire Lab's Deep Learning Seizure Detection WebApp
 🧠 **Try it online:** https://deep-seizure-detect.herokuapp.com
 
-⚠️ **Current version:** v0.1 Alpha
+⚠️ **Current version:** v0.2 Alpha
 
 ---
 
