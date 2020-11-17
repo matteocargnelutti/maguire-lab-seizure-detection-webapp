@@ -7,6 +7,7 @@
 
 ## About
 This web app uses deep learning to detect seizure activity from single-channel LFP/EEG brain recordings.
+
 ![graph](__github/graph_min.png)
 
 ---
