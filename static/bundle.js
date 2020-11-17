@@ -258,8 +258,6 @@ renderInnerHTML(){this.innerHTML=`
     <p>
       This software was built and made available for research purposes only and is intended for use on rodent data.
     </p>
-
-    <p><strong>Current version:</strong> v0.1 Alpha</p>
     `;}}
 customElements.define('info-footer',InfoFooter);
 class GlobalModal extends HTMLElement{constructor(){super();this.appRoot=document.querySelector('app-root');this.appState=this.appRoot.state;this.conditionalReRender=this.conditionalReRender.bind(this);}
