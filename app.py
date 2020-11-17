@@ -13,11 +13,12 @@ from sklearn.preprocessing import StandardScaler
 from tensorflow.keras.models import load_model
 from flask import Flask, request, jsonify, render_template, redirect
 import flask_compress
+import numpy as np
 
 #-------------------------------------------------------------------------------
 # Load model
 #-------------------------------------------------------------------------------
-model = load_model('./models/single_channel_april_16_2020.h5')
+model = load_model('./models/single_channel_nov_17_2020.h5')
 
 #-------------------------------------------------------------------------------
 # Initiate Flask app
@@ -79,7 +80,7 @@ def predict():
         #
         # Run preditions
         #
-        data = StandardScaler().fit_transform(data) # Normalize
+        data = np.array(data)
         data = data.reshape(data.shape[0], data.shape[1], 1) # Reshape as 3D to fit model
         predictions = model.predict(data) # Run predictions
         
