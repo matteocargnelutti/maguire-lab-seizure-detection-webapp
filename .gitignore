@@ -2,5 +2,6 @@
 .csv
 /samples
 .vscode/
+Pipfile
 Pipfile.lock
 *.pyc
