@@ -6,18 +6,17 @@
 ---
 
 ## About
-This web app allows to run a set of rodent single-channel EEG data against a deep learning model to detect seizures.
-
+This web app uses deep learning to detect seizure activity from single-channel LFP/EEG brain recordings.
 ![graph](__github/graph_min.png)
 
 ---
 
 ## How does it work
-- Provide the app a CSV file containing rodent EEG data, each line being a sequence of 500 samples at 100hz.
+- Provide the app with a CSV file containing rodent EEG data, where each row is a sequence of 500 samples at 100 Hz.
 
 - The app will read the file and send it by chunks to our server, where our machine learning algorithm runs. Nothing is stored on our end.
 
-- Once the whole file has been processed, the app generates a dynamic visualization allowing to consult, edit and export results.
+- Once the whole file has been processed, the app generates a dynamic visualization allowing verification, editing and export of the results.
 
 ---
 
