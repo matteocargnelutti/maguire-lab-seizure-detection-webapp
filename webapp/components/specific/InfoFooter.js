@@ -40,7 +40,7 @@ class InfoFooter extends HTMLElement {
       This software was built and made available for research purposes only and is intended for use on rodent data.
     </p>
 
-    <p><strong>Current version:</strong> v0.1 Alpha - Internal testing</p>
+    <p><strong>Current version:</strong> v0.1 Alpha</p>
     `;
 
   }

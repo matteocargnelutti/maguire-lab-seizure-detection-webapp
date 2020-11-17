@@ -20,8 +20,8 @@ class HowItWorks extends HTMLElement {
              alt="Lightning bolt" 
              aria-hidden="true"/>
         <p>
-          Provide a <strong>CSV</strong> file containing <strong>rodent EEG data</strong>, each line being a sequence of 500 samples at 100hz.
-          <a href="/static/samples/sample_100_sequences_with_seizure.csv" title="Get a sample EEG file">Try the app with a sample CSV file</a>.
+          Provide a <strong>CSV</strong> file containing <strong>rodent EEG data</strong>, where each row is a sequence of 500 samples at 100 Hz.
+          <a href="/static/samples/sample_149_sequences_with_seizures.csv" title="Get a sample EEG file">Try the app with a sample CSV file</a>.
         </p>
       </li>
 
@@ -39,7 +39,7 @@ class HowItWorks extends HTMLElement {
              alt="Chart" 
              aria-hidden="true"/>
         <p>
-          Once the whole file has been processed, the app generates a <strong>dynamic visualization</strong> allowing to <strong>consult, edit and export</strong> results.
+          Once the whole file has been processed, the app generates a <strong>dynamic visualization</strong> allowing <strong>verification, editing and export of the</strong> results.
         </p>
       </li>
     </ol>
