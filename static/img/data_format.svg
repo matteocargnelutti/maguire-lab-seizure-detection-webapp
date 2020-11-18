@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 612 792" style="enable-background:new 0 0 612 792;" xml:space="preserve">
+<style type="text/css">
+	.st0{font-family:'Calibri';}
+	.st1{font-size:17px;}
+	.st2{fill:none;stroke:#000000;stroke-width:0.75;stroke-miterlimit:10;}
+	.st3{fill:#00A651;}
+	.st4{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st5{font-size:16px;}
+	.st6{fill:#EE2A7B;}
+	.st7{font-family:'Calibri-BoldItalic';}
+	.st8{font-size:10px;}
+	.st9{fill:#E4E4E4;}
+	.st10{fill:#057A3E;}
+	.st11{fill:#A4A9AD;}
+	.st12{fill:#D2D3D3;}
+	.st13{font-family:'Calibri-Bold';}
+	.st14{font-size:19px;}
+	.st15{fill:#00AEEF;}
+	.st16{font-size:14px;}
+	.st17{fill:#ED1C24;}
+	.st18{fill:#7F3F98;}
+	.st19{fill:#F7941D;}
+	.st20{fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+	.st21{fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;stroke-dasharray:3.7753,3.7753;}
+	.st22{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+</style>
+<g>
+	<text transform="matrix(1 0 0 1 193.2422 99.2202)" class="st0 st1">Continuous LFP/EEG recording</text>
+</g>
+<g>
+	<g>
+		<rect x="84.43" y="290.18" class="st2" width="348" height="164"/>
+		<line class="st2" x1="142.43" y1="290.18" x2="142.43" y2="454.18"/>
+		<line class="st2" x1="200.43" y1="290.18" x2="200.43" y2="454.18"/>
+		<line class="st2" x1="258.43" y1="290.18" x2="258.43" y2="454.18"/>
+		<line class="st2" x1="316.43" y1="290.18" x2="316.43" y2="454.18"/>
+		<line class="st2" x1="374.43" y1="290.18" x2="374.43" y2="454.18"/>
+		<line class="st2" x1="432.43" y1="426.85" x2="84.43" y2="426.85"/>
+		<line class="st2" x1="432.43" y1="399.51" x2="84.43" y2="399.51"/>
+		<line class="st2" x1="432.43" y1="372.18" x2="84.43" y2="372.18"/>
+		<line class="st2" x1="432.43" y1="344.85" x2="84.43" y2="344.85"/>
+		<line class="st2" x1="432.43" y1="317.51" x2="84.43" y2="317.51"/>
+	</g>
+	<rect x="83.93" y="267.85" class="st3" width="422.24" height="21"/>
+	<g>
+		<g>
+			<line class="st4" x1="86.31" y1="478.92" x2="501.13" y2="478.92"/>
+			<g>
+				<path d="M507.17,478.92c-2.84,1.05-6.36,2.85-8.55,4.76l1.72-4.76l-1.72-4.75C500.8,476.07,504.33,477.87,507.17,478.92z"/>
+			</g>
+		</g>
+	</g>
+	<text transform="matrix(1 0 0 1 102.7912 499.9011)" class="st0 st5">500 columns (100 EEG samples per seconds for 5 seconds)</text>
+	<text transform="matrix(1 0 0 1 192.2431 314.4619)" class="st6 st7 st8">2</text>
+	<text transform="matrix(1 0 0 1 249.6788 314.4623)" class="st6 st7 st8">3</text>
+	<text transform="matrix(1 0 0 1 307.1142 314.462)" class="st6 st7 st8">4</text>
+	<text transform="matrix(1 0 0 1 364.5502 314.4622)" class="st6 st7 st8">5</text>
+	<text transform="matrix(1 0 0 1 420.726 314.4622)" class="st6 st7 st8">6</text>
+	<text transform="matrix(1 0 0 1 487.6027 314.4622)" class="st6 st7 st8">500</text>
+	<text transform="matrix(1 0 0 1 134.8071 314.4619)" class="st6 st7 st8">1</text>
+	<g>
+		<rect x="451.99" y="290.4" class="st2" width="54.05" height="163.78"/>
+		<line class="st2" x1="451.99" y1="426.88" x2="506.05" y2="426.88"/>
+		<line class="st2" x1="451.99" y1="399.59" x2="506.05" y2="399.59"/>
+		<line class="st2" x1="451.99" y1="372.29" x2="506.05" y2="372.29"/>
+		<line class="st2" x1="451.99" y1="344.99" x2="506.05" y2="344.99"/>
+		<line class="st2" x1="451.99" y1="317.7" x2="506.05" y2="317.7"/>
+	</g>
+	<g>
+		<polygon class="st9" points="127.09,389.19 90.28,389.19 90.28,448.87 137.04,448.87 137.04,399.13 		"/>
+		<polygon class="st10" points="128.63,394.16 90.28,394.16 90.28,389.19 127.09,389.19 		"/>
+		<g>
+			<g>
+				<path class="st11" d="M106.43,434.07c-0.59,0-1.05,0.24-1.37,0.72c-0.33,0.48-0.49,1.14-0.49,1.99c0,1.76,0.67,2.64,2.01,2.64
+					c0.4,0,0.8-0.06,1.17-0.17c0.38-0.11,0.76-0.25,1.14-0.41v2.09c-0.76,0.34-1.62,0.51-2.59,0.51c-1.38,0-2.44-0.4-3.17-1.2
+					c-0.74-0.8-1.1-1.96-1.1-3.47c0-0.95,0.18-1.78,0.53-2.49c0.36-0.72,0.87-1.27,1.54-1.65c0.67-0.39,1.45-0.58,2.36-0.58
+					c0.99,0,1.93,0.21,2.83,0.64l-0.76,1.94c-0.34-0.16-0.67-0.29-1.01-0.4C107.18,434.12,106.82,434.07,106.43,434.07z"/>
+				<path class="st11" d="M116.64,438.53c0,0.57-0.14,1.07-0.43,1.51c-0.29,0.44-0.7,0.78-1.24,1.02c-0.54,0.24-1.18,0.37-1.91,0.37
+					c-0.61,0-1.12-0.04-1.53-0.13c-0.41-0.09-0.84-0.23-1.29-0.45v-2.2c0.47,0.24,0.96,0.43,1.47,0.57c0.51,0.14,0.97,0.2,1.4,0.2
+					c0.37,0,0.64-0.06,0.81-0.19c0.17-0.13,0.26-0.29,0.26-0.49c0-0.13-0.03-0.23-0.1-0.33c-0.07-0.09-0.18-0.19-0.33-0.28
+					c-0.15-0.1-0.56-0.29-1.22-0.59c-0.6-0.27-1.04-0.53-1.34-0.79c-0.3-0.25-0.52-0.55-0.66-0.87s-0.22-0.72-0.22-1.17
+					c0-0.84,0.31-1.5,0.92-1.97c0.61-0.47,1.45-0.71,2.52-0.71c0.95,0,1.91,0.22,2.89,0.66l-0.76,1.91
+					c-0.85-0.39-1.59-0.59-2.21-0.59c-0.32,0-0.55,0.06-0.7,0.17c-0.15,0.11-0.22,0.25-0.22,0.42c0,0.18,0.09,0.34,0.28,0.48
+					c0.19,0.14,0.69,0.4,1.51,0.77c0.79,0.35,1.33,0.73,1.64,1.14C116.49,437.41,116.64,437.92,116.64,438.53z"/>
+				<path class="st11" d="M123.18,432.17h2.76l-2.99,9.13h-2.91l-2.98-9.13h2.77l1.24,4.63c0.26,1.03,0.4,1.75,0.42,2.15
+					c0.03-0.29,0.09-0.66,0.17-1.09c0.09-0.44,0.16-0.78,0.23-1.03L123.18,432.17z"/>
+			</g>
+		</g>
+		<polygon class="st12" points="127.09,399.13 137.04,399.13 127.09,389.19 		"/>
+		<g>
+			<rect x="110.38" y="405" class="st10" width="6.55" height="3.03"/>
+			<rect x="118.39" y="405" class="st10" width="6.55" height="3.03"/>
+			<rect x="110.38" y="409.4" class="st10" width="6.55" height="3.04"/>
+			<rect x="118.39" y="409.4" class="st10" width="6.55" height="3.04"/>
+			<rect x="110.38" y="413.79" class="st10" width="6.55" height="3.03"/>
+			<rect x="118.39" y="413.79" class="st10" width="6.55" height="3.03"/>
+			<rect x="102.38" y="413.79" class="st10" width="6.55" height="3.03"/>
+			<rect x="110.38" y="418.18" class="st10" width="6.55" height="3.03"/>
+			<rect x="118.39" y="418.18" class="st10" width="6.55" height="3.03"/>
+			<rect x="102.38" y="418.18" class="st10" width="6.55" height="3.03"/>
+			<g>
+				<path class="st10" d="M108.84,412.06h-1.98l-1.23-1.98l-1.22,1.98h-1.93l2.1-3.24l-1.97-3.09h1.89l1.14,1.96l1.1-1.96h1.95
+					l-2,3.22L108.84,412.06z"/>
+			</g>
+		</g>
+	</g>
+	<text transform="matrix(1 0 0 1 201.2101 251.4395)"><tspan x="0" y="0" class="st13 st14">CSV</tspan><tspan x="30.27" y="0" class="st0 st1"> File Format for webapp</tspan></text>
+	<g>
+		<g>
+			<path class="st4" d="M510.12,303.81c19.78,3.16,29.58,3.24,29.27,5.54c-2.92,22.26-407.13,12.37-457.32,2.37
+				c-3.6-0.72-23.27-5-26.11,0.79c-1.27,2.58,1.26,6.28,2.37,7.91c3.6,5.28,9.36,7.37,13.77,8.19"/>
+			<g>
+				<path d="M78.12,329.13c-2.93,0.77-6.62,2.21-8.98,3.88l2.18-4.56l-1.24-4.9C72.07,325.66,75.4,327.8,78.12,329.13z"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 123.7598 341.1649)" class="st6 st7 st8">501</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 181.3092 341.1649)" class="st6 st7 st8">502</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 482.1334 341.1649)" class="st6 st7 st8">1000</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 482.1334 365.6923)" class="st6 st7 st8">1500</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 482.1334 391.011)" class="st6 st7 st8">2000</text>
+	</g>
+	<text transform="matrix(1 0 0 1 93.2588 304.5359)" class="st15 st13 st16">0.015</text>
+	<text transform="matrix(1 0 0 1 153.2225 304.5361)" class="st0 st16">0.017</text>
+	<text transform="matrix(1 0 0 1 206.9398 304.5359)" class="st0 st16">-0.012</text>
+	<text transform="matrix(1 0 0 1 264.9437 304.5359)" class="st0 st16">0.005</text>
+	<text transform="matrix(1 0 0 1 381.6649 304.5359)" class="st0 st16">0.012</text>
+	<g>
+		<text transform="matrix(1 0 0 1 456.4237 305.5356)" class="st17 st13 st16">0.018</text>
+	</g>
+	<text transform="matrix(1 0 0 1 324.8046 304.5359)" class="st0 st16">0.013</text>
+	<text transform="matrix(1 0 0 1 154.5336 332.4324)" class="st18 st13 st16">0.006</text>
+	<text transform="matrix(1 0 0 1 93.5006 332.1317)" class="st19 st13 st16">0.022</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 206.8741 166.6378)" class="st6 st7 st16">3</text>
+	<text transform="matrix(1 0 0 1 250.9985 166.638)" class="st6 st7 st16">4</text>
+	<text transform="matrix(1 0 0 1 295.123 166.638)" class="st6 st7 st16">5</text>
+	<text transform="matrix(1 0 0 1 339.2473 166.638)" class="st6 st7 st16">6</text>
+	<g>
+		<text transform="matrix(1 0 0 1 426.9305 166.6376)" class="st6 st7 st16">500</text>
+	</g>
+	<text transform="matrix(1 0 0 1 43.9118 158.2379)"><tspan x="0" y="0" class="st6 st7 st16">sample</tspan><tspan x="-1.67" y="16.8" class="st6 st7 st16">number</tspan></text>
+	<text transform="matrix(1 0 0 1 118.6251 166.6377)" class="st6 st7 st16">1</text>
+	<text transform="matrix(1 0 0 1 162.7493 166.6378)" class="st6 st7 st16">2</text>
+	<text transform="matrix(1 0 0 1 472.955 166.6377)" class="st6 st7 st16">501</text>
+	<text transform="matrix(1 0 0 1 518.98 166.6377)" class="st6 st7 st16">502</text>
+	<text transform="matrix(1 0 0 1 106.4086 133.5167)" class="st15 st13 st16">0.015</text>
+	<text transform="matrix(1 0 0 1 151.0057 133.7733)" class="st0 st16">0.017</text>
+	<text transform="matrix(1 0 0 1 193.3572 133.773)" class="st0 st16">-0.012</text>
+	<text transform="matrix(1 0 0 1 239.995 133.7733)" class="st0 st16">0.005</text>
+	<text transform="matrix(1 0 0 1 284.4892 133.7733)" class="st0 st16">0.013</text>
+	<text transform="matrix(1 0 0 1 328.0056 133.7733)" class="st0 st16">0.012</text>
+	<text transform="matrix(1 0 0 1 422.002 133.5167)" class="st17 st13 st16">0.018</text>
+	<text transform="matrix(1 0 0 1 468.7932 133.517)" class="st19 st13 st16">0.022</text>
+	<text transform="matrix(1 0 0 1 511.1009 133.517)" class="st18 st13 st16">0.006</text>
+	<g>
+		<rect x="102.35" y="115.25" class="st2" width="265.85" height="30"/>
+		<line class="st2" x1="323.89" y1="115.25" x2="323.89" y2="145.25"/>
+		<line class="st2" x1="279.58" y1="115.25" x2="279.58" y2="145.25"/>
+		<line class="st2" x1="235.27" y1="115.25" x2="235.27" y2="145.25"/>
+		<line class="st2" x1="190.96" y1="115.25" x2="190.96" y2="145.25"/>
+		<line class="st2" x1="146.66" y1="115.25" x2="146.66" y2="145.25"/>
+	</g>
+	<text transform="matrix(1 0 0 1 49.8319 133.773)" class="st0 st16">volts</text>
+	<g>
+		<rect x="417.36" y="115.25" class="st2" width="132.43" height="30"/>
+		<line class="st2" x1="505.65" y1="115.25" x2="505.65" y2="145.25"/>
+		<line class="st2" x1="461.5" y1="115.25" x2="461.5" y2="145.25"/>
+	</g>
+	<g>
+		<g>
+			<line class="st20" x1="374.06" y1="130.25" x2="376.06" y2="130.25"/>
+			<line class="st21" x1="379.84" y1="130.25" x2="408.15" y2="130.25"/>
+			<line class="st20" x1="410.04" y1="130.25" x2="412.04" y2="130.25"/>
+		</g>
+	</g>
+</g>
+<g>
+	<line x1="297.51" y1="185.13" x2="297.51" y2="223.11"/>
+	<g>
+		<line class="st22" x1="297.51" y1="185.13" x2="297.51" y2="211.04"/>
+		<g>
+			<path d="M297.51,223.11c-2.11-5.68-5.7-12.73-9.51-17.09l9.51,3.44l9.51-3.44C303.21,210.38,299.62,217.43,297.51,223.11z"/>
+		</g>
+	</g>
+</g>
+</svg>
