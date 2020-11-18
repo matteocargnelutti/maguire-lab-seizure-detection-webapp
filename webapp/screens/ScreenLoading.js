@@ -236,16 +236,16 @@ class ScreenLoading extends HTMLElement {
 
     }
 
-    // Exclude positive results that are not part of a (at least) 6 positive sequences streak
+    // Exclude positive results that are not part of a (at least) 3 positive sequences streak
     let positiveStreak = [];
     for( let i = 0; i < output.length; i++ ) {
     
       // If we come across a negative result:
-      // - Check if the positiveStreak contains less than 6 elements
+      // - Check if the positiveStreak contains less than 3 elements
       // - If so, change these results to negative on both output and outputFrozen
       if( output[i] === false ) {
 
-        if( positiveStreak && positiveStreak.length < 6 ) {
+        if( positiveStreak && positiveStreak.length < 3 ) {
           for( let sequenceIndex of positiveStreak ) {
             output[sequenceIndex] = false;
           }
