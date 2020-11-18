@@ -7,7 +7,7 @@
 
 ## How does it work
 - Provide the app with a CSV file containing rodent EEG data, where each row is a sequence of 500 samples at 100 Hz. 
-[ℹ️ More info](/__github/data_format.png) - [📄 Example](/static/samples/sample_149_sequences_with_seizures)
+[ℹ️ More info](__github/data_format.png) - [📄 Example](static/samples/sample_149_sequences_with_seizures)
 
 - The app will read the file and send it by chunks to our server, where our machine learning algorithm runs. Nothing is stored on our end.
 
