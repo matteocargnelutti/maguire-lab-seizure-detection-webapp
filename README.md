@@ -45,7 +45,7 @@ This software was built and made available for research purposes only and is int
 
 ## Resources and references
 ["How Deep Learning Solved My Seizure Detection Problems"](https://journals.sagepub.com/doi/10.1177/1535759720948430). 
-Commentary by Pantelis Antonoudiou and Jamie L. Maguire. on Epilepsy Currents, Sept 2 2020.
+Commentary by Pantelis Antonoudiou and Jamie Maguire on Epilepsy Currents, Sept 2 2020.
 
 ---
 
