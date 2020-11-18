@@ -21,6 +21,10 @@ This web app uses deep learning to detect seizure activity from single-channel L
 
 ---
 
+## About the model
+The model is a convolutional neural net that was built using [Keras](https://keras.io/) API with a Tensorflow-backend. It was trained on LFP data from
+chronically epileptic mice that were generated using intra-hippocampal kainate injections by [Dr. Trina Basu](https://twitter.com/trina_basu).
+
 ## Authors, license and intended use
 
 Built with the [Maguire Lab at Tufts University](https://www.maguirelab.com/) by:
