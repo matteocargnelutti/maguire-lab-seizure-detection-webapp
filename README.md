@@ -4,7 +4,6 @@
 **Try it online:** https://deep-seizure-detect.herokuapp.com
 
 ![graph](__github/app-on-computer.png)
----
 
 ## How does it work
 - Provide the app with a CSV file containing rodent EEG data, where each row is a sequence of 500 samples at 100 Hz.
@@ -48,6 +47,8 @@ Many thanks to [Dr. Trina Basu](https://twitter.com/trina_basu) for allowing us 
 
 ---
 
-A bug to report? A question? An idea to suggest? Please [contact us via the _issues_ section](https://github.com/matteocargnelutti/maguire-lab-seizure-detection-webapp/issues).
+## A bug to report? A question? An idea to suggest? 
+
+Please [contact us via the _issues_ section](https://github.com/matteocargnelutti/maguire-lab-seizure-detection-webapp/issues).
 
 ⚠️ **Current version:** v0.2 Alpha
