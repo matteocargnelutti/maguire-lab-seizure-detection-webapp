@@ -1,13 +1,9 @@
-![Maguire Lab's Deep Learning Seizure Detection WebApp](__github/social.png)
+# Maguire Lab's Deep Learning Seizure Detection WebApp
+In-browser deep learning to detect seizure activity from single-channel LFP/EEG brain recordings.
 
 🧠 **Try it online:** https://deep-seizure-detect.herokuapp.com
 
 ⚠️ **Current version:** v0.2 Alpha
-
----
-
-## About
-This web app uses deep learning to detect seizure activity from single-channel LFP/EEG brain recordings.
 
 ![graph](__github/app-on-computer.png)
 
