@@ -119,7 +119,7 @@ renderInnerHTML(){this.innerHTML=`
              alt="Chart" 
              aria-hidden="true"/>
         <p>
-          Once the whole file has been processed, the app generates a <strong>dynamic visualization</strong> allowing <strong>verification, editing and export of the</strong> results.
+          Once the whole file has been processed, the app generates a <strong>dynamic visualization</strong> allowing <strong>verification, editing and export of the results</strong>.
         </p>
       </li>
     </ol>
