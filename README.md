@@ -1,16 +1,9 @@
 # Maguire Lab's Deep Learning Seizure Detection WebApp
-🧠 **Try it online:** https://deep-seizure-detect.herokuapp.com
+🧠 In-browser detection of seizure activity from single-channel LFP/EEG brain recordings using deep learning.
 
-⚠️ **Current version:** v0.2 Alpha
+**Try it online:** https://deep-seizure-detect.herokuapp.com
 
----
-
-## About
-This web app uses deep learning to detect seizure activity from single-channel LFP/EEG brain recordings.
-
-![graph](__github/graph_min.png)
-
----
+![App screenshot](__github/app-on-computer.png)
 
 ## How does it work
 - Provide the app with a CSV file containing rodent EEG data, where each row is a sequence of 500 samples at 100 Hz.
@@ -21,8 +14,13 @@ This web app uses deep learning to detect seizure activity from single-channel L
 
 ---
 
-## Authors, license and intended use
+## About the model
+The model is a convolutional neural net that was built using [Keras](https://keras.io/) API with a Tensorflow-backend. It was trained on LFP data from
+chronically epileptic mice that were generated using intra-hippocampal kainate injections by [Dr. Trina Basu](https://twitter.com/trina_basu).
 
+---
+
+## Authors, license and intended use
 Built with the [Maguire Lab at Tufts University](https://www.maguirelab.com/) by:
 
 Matteo Cargnelutti | Pantelis Antonoudiou, PhD
@@ -41,7 +39,7 @@ This software was built and made available for research purposes only and is int
 
 ## Resources and references
 ["How Deep Learning Solved My Seizure Detection Problems"](https://journals.sagepub.com/doi/10.1177/1535759720948430). 
-Commentary by Pantelis Antonoudiou and Jamie L. Maguire. on Epilepsy Currents, Sept 2 2020.
+Commentary by Pantelis Antonoudiou and Jamie Maguire on Epilepsy Currents, Sept 2 2020.
 
 ---
 
@@ -50,4 +48,8 @@ Many thanks to [Dr. Trina Basu](https://twitter.com/trina_basu) for allowing us 
 
 ---
 
-A bug to report? A question? An idea to suggest? Please [contact us via the _issues_ section](https://github.com/matteocargnelutti/maguire-lab-seizure-detection-webapp/issues).
+## A bug to report? A question? An idea to suggest? 
+
+Please [contact us via the _issues_ section](https://github.com/matteocargnelutti/maguire-lab-seizure-detection-webapp/issues).
+
+⚠️ **Current version:** v0.2 Alpha
