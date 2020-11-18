@@ -100,8 +100,8 @@ renderInnerHTML(){this.innerHTML=`
              alt="Lightning bolt" 
              aria-hidden="true"/>
         <p>
-          Provide a <strong>CSV</strong> file containing <strong>rodent EEG data</strong>, where each row is a sequence of 500 samples at 100 Hz.
-          <a href="/static/samples/sample_149_sequences_with_seizures.csv" title="Get a sample EEG file">Try the app with a sample CSV file</a>.
+          Provide a <strong>CSV</strong> file containing <strong>rodent EEG data</strong>, where each row is a sequence of <a href="/static/img/data-format.png" title="More information on the Expected data format">500 samples at 100 Hz</a>.
+          Try the app with a <a href="/static/samples/sample_149_sequences_with_seizures.csv" title="Get a sample EEG file">sample CSV file</a>.
         </p>
       </li>
 
@@ -256,7 +256,7 @@ renderInnerHTML(){this.innerHTML=`
     </p>
 
     <p>
-      This software was built and made available for research purposes only and is intended for use on rodent data.
+      <strong>This software was built and made available for research purposes only and is intended for use on rodent data.</strong>
     </p>
     `;}}
 customElements.define('info-footer',InfoFooter);

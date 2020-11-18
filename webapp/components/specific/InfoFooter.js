@@ -37,7 +37,7 @@ class InfoFooter extends HTMLElement {
     </p>
 
     <p>
-      This software was built and made available for research purposes only and is intended for use on rodent data.
+      <strong>This software was built and made available for research purposes only and is intended for use on rodent data.</strong>
     </p>
     `;
 
