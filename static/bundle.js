@@ -51,7 +51,7 @@ try{let response=await fetch('/predict',{method:'POST',headers:{'Content-Type':'
 buffer.length=0;}
 catch(err){output.push(Array(buffer.length));}
 this.state.data.outputLength=output.length;}}
-let positiveStreak=[];for(let i=0;i<output.length;i++){if(output[i]===false){if(positiveStreak&&positiveStreak.length<6){for(let sequenceIndex of positiveStreak){output[sequenceIndex]=false;}}
+let positiveStreak=[];for(let i=0;i<output.length;i++){if(output[i]===false){if(positiveStreak&&positiveStreak.length<3){for(let sequenceIndex of positiveStreak){output[sequenceIndex]=false;}}
 positiveStreak.length=0;continue;}
 if(output[i]===true){positiveStreak.push(i);continue;}}
 if(this.cancel!==true){this.appState.data.seizureData={input:input,output:output,outputFrozen:Object.assign([],output)};this.changeScreen('screen-visualization');}}
