@@ -1,9 +1,9 @@
 # Maguire Lab's Deep Learning Seizure Detection WebApp
-🧠 In-browser deep learning to detect seizure activity from single-channel LFP/EEG brain recordings.
+🧠 In-browser detection of seizure activity from single-channel LFP/EEG brain recordings using deep learning.
 
 **Try it online:** https://deep-seizure-detect.herokuapp.com
 
-![graph](__github/app-on-computer.png)
+![App screenshot](__github/app-on-computer.png)
 
 ## How does it work
 - Provide the app with a CSV file containing rodent EEG data, where each row is a sequence of 500 samples at 100 Hz.
@@ -18,8 +18,9 @@
 The model is a convolutional neural net that was built using [Keras](https://keras.io/) API with a Tensorflow-backend. It was trained on LFP data from
 chronically epileptic mice that were generated using intra-hippocampal kainate injections by [Dr. Trina Basu](https://twitter.com/trina_basu).
 
-## Authors, license and intended use
+---
 
+## Authors, license and intended use
 Built with the [Maguire Lab at Tufts University](https://www.maguirelab.com/) by:
 
 Matteo Cargnelutti | Pantelis Antonoudiou, PhD
